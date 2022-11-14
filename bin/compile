@@ -3,5 +3,5 @@
 
 #playwright install
 #PLAYWRIGHT_BROWSERS_PATH=$HOME/pw-browsers python -m playwright install
-sudo apt install nodejs
+
 npx playwright install-deps
