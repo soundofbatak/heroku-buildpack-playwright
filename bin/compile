@@ -2,4 +2,6 @@
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 #playwright install
-PLAYWRIGHT_BROWSERS_PATH=$HOME/pw-browsers python -m playwright install
+#PLAYWRIGHT_BROWSERS_PATH=$HOME/pw-browsers python -m playwright install
+pip install playwright==1.8.0a1
+PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 python -m playwright install
