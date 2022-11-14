@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
-playwright install
+#playwright install
+PLAYWRIGHT_BROWSERS_PATH=$HOME/pw-browsers python -m playwright install
